@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Blaugrana Apps</string>
+    <string name="player_name">Nama Pemain</string>
+    <string name="detail">Detail Pemain</string>
+    <string name="btnDetail">Detail</string>
+    <string name="about">About</string>
+    <string name="name">Ashari Novaldi</string>
+    <string name="email">asharinovaldi6319@gmail.com</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginBottom="20dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/img_item_photo"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        tools:src="@android:color/darker_gray"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/img_item_photo"
+        android:layout_toRightOf="@id/img_item_photo"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/item_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/player_name"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_detail"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="@string/detail"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
